@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My image gallery</title>
+</head>
+<body>
+    <div class="container">
+        <h1> PHOTO Gallery</h1>
+    </div>
+    <style>
+        *{margin: 0px;}
+        div{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: rgba(183, 116, 145, 0.325);
+            padding: 0px;
+            
+        }
+        div img{
+            width: 400px;
+            height: 300px;
+            border: 2px solid #ff3d0036;
+            border-radius: 13px;
+            box-shadow: 4px 7px 7px 0px #00000042;
+            cursor: pointer;
+            transition: 1.03 ease;
+            padding: 0px;
+        
+        }
+        div img:hover {
+            filter: grayscale(1);
+            transform: scale(1.03);
+        }
+        
+    </style>
+    <div>
+        <img src="img2.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img2.jpg" alt="">
+    </div>
+</body>
+</html>
